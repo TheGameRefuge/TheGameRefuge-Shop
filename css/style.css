@@ -112,8 +112,8 @@ h1 {
 
 div.column {
     float: left;
-    width: 33.33%;
-    padding: 20px;
+    width: 50%;
+    padding: 60px;
 }
 
 .fp {
@@ -121,6 +121,9 @@ div.column {
     margin-right: auto;
     margin-left: auto;
     border: solid 5px black;
+    max-width: 50%;
+    min-width: 50%;
+    height: 500px;
 }
 #logo {
     padding-top: 10px;
