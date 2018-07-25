@@ -68,7 +68,11 @@ h1 {
   padding: 15px 25px;
   border-radius: 12px;
   font-size: 22px;
+  text-decoration: none;
 }
 #sell button:hover {
 background-color: #ff00bf;
+}
+#dis {
+  display: inline;
 }
