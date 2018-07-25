@@ -9,8 +9,6 @@ body {
   font-size: 40px;
   height: 40px;
   opacity: 0.7;
-
-
 }
 .row:hover h2 {
   opacity: 1.0;
@@ -23,20 +21,13 @@ body {
   margin-right: auto;
   border: 3px solid white;
   opacity: 1.0;
-
-}
 }
 .signin {
     position: relative;
-
-}
-.navbar li{
-    padding-right: 30px;
 }
 h3{
   padding-top: 100px;
 }
-
 h1 {
   color: white;
   padding-top: 200px;
@@ -75,4 +66,27 @@ background-color: #ff00bf;
 }
 #dis {
   display: inline;
+}
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding-left: 200px;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.navbar li {
+  float: left;
+}
+
+.navbar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar li a:hover {
+  background-color: #111;
 }
