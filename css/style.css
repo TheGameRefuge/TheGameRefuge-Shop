@@ -47,6 +47,10 @@ background-color: #ff00bf;
   float: top;
   width: 25%;
 }
+.column #sell{
+    float:left;
+    width: 50%;
+}
 
 #dis  {
   width: 40%;
@@ -84,4 +88,11 @@ h2 {
 
 .navbar li a:hover {
   background-color: #111;
+}
+.grid-container {
+    display: grid;
+    grid-column-gap: 50px;
+    grid-template-columns: auto auto auto;
+    background-color: #2196F3;
+    padding: 10px;
 }
