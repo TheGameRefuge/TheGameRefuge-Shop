@@ -109,6 +109,12 @@ h1 {
 .slide {
     border: 10px solid black;
 }
+/*img.slide{
+  max-width: 100%;
+  min-width: 100%;
+  min-height: 550px;
+  max-height: 550px;
+}*/
 
 div.column {
     float: left;
@@ -123,7 +129,8 @@ div.column {
     border: solid 5px black;
     max-width: 50%;
     min-width: 50%;
-    height: 500px;
+    min-height: 50%;
+    max-height: 50%;
 }
 #logo {
     padding-top: 10px;
@@ -133,9 +140,6 @@ div.column {
     float: left;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-}
-.mySlides {
-    display:none;
 }
 #cov {
     float: left;
