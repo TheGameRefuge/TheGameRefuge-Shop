@@ -7,9 +7,16 @@ a {
     text-decoration: none;
 }
 
-h3 {
-    padding-top: px;
+h4{
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    padding: 0;
+    margin: 0px;
 }
+h2 {
+     color: white;
+ }
 
 h1 {
     color: white;
@@ -28,11 +35,10 @@ h1 {
 
 #sell {
     background-image: url("../imgs/bcgrnd.jpg");
-    color: black;
+    color: white;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
     padding: 20px;
+    padding-righ
 }
 
 #sell button {
@@ -41,7 +47,7 @@ h1 {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    padding: 15px 25px;
+    padding: 15px 40px;
     border-radius: 12px;
     font-size: 22px;
     text-decoration: none;
@@ -71,19 +77,15 @@ h1 {
 #line {
     max-width: 100%;
     min-width: 100%;
+    background-color: #111111;
 }
-
-h2 {
-    text-align: center;
-    color: black;
-}
-
 .navbar ul {
     list-style-type: none;
     margin: 0;
     padding-left: px;
     overflow: hidden;
     background-color: #333;
+    height: 50px;
 }
 
 .navbar li {
