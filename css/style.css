@@ -53,18 +53,14 @@ background-color: #ff00bf;
   float: left;
   margin-left: 80px;
   margin-right: 80px;
-
 }
 #line{
   max-width: 100%;
   min-width: 100%;
 }
-h2{
-  text-align: center;
-  color: white;
-
-#dis {
-  display: inline;
+h2 {
+    text-align: center;
+    color: white;
 }
 .navbar ul {
   list-style-type: none;
