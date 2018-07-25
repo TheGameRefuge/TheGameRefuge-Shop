@@ -24,6 +24,17 @@
     </ul>
   </div>
 </nav>
+ <div>
+  <img class="slide" src="imgs/gta5.jpg" style="width:100%">
+  <img class="slide" src="imgs/RaftBanner.png" style="width:100%">
+  <img class="slide" src="imgs/Rocket-League-PS4.jpg" style="width:100%">
+  <img class="slide" src="imgs/overwatch-characters-centred-i49233.jpg" style="width:100%">
+  <img class="slide" src="imgs/vampir.jpg" style="width:100%">
+
+  <button class="button_left" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="button_right" onclick="plusDivs(+1)">&#10095;</button>
+</div>
+
   <div class="container">
 <h1 class="row" class="col-sm-12" id="title">New & Trending</h1>
 <div class="row">
@@ -58,5 +69,24 @@
 </div>
 </div>
   </div>
+  <script>
+      var slideIndex = 1;
+      showDivs(slideIndex);
+
+      function plusDivs(n) {
+          showDivs(slideIndex += n);
+      }
+
+      function showDivs(n) {
+          var i;
+          var x = document.getElementsByClassName("slide");
+          if (n > x.length) {slideIndex = 1}
+          if (n < 1) {slideIndex = x.length}
+          for (i = 0; i < x.length; i++) {
+              x[i].style.display = "none";
+          }
+          x[slideIndex-1].style.display = "block";
+      }
+  </script>
 </body>
 </html>
