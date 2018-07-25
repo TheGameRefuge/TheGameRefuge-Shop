@@ -15,11 +15,10 @@ h1 {
   font-family: "Impact";
 }
 #title {
-    position: relative;
   background-image: url("../imgs/bcgrnd.jpg");
     width: auto;
-    height: 200px;
-    padding: 100px;
+    height: 100px;
+    padding: 25px;
 }
 #sell{
   background-image:url("../imgs/bcgrnd.jpg");
@@ -64,7 +63,7 @@ background-color: #ff00bf;
 }
 h2 {
     text-align: center;
-    color: white;
+    color: black;
 }
 .navbar ul {
   list-style-type: none;
@@ -96,3 +95,9 @@ h2 {
     background-color: #2196F3;
     padding: 10px;
 }
+.slide {
+    border: 10px solid black;
+}div.column {
+     float:left;
+     width: 33.33%;
+ }
