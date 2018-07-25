@@ -64,6 +64,26 @@ h1 {
 #sell button:hover {
 background-color: #ff00bf;
 }
+.column img{
+  float: top;
+  width: 25%;
+}
+
+#dis  {
+  width: 40%;
+  float: left;
+  margin-left: 80px;
+  margin-right: 80px;
+
+}
+#line{
+  max-width: 100%;
+  min-width: 100%;
+}
+h2{
+  text-align: center;
+  color: white;
+
 #dis {
   display: inline;
 }
