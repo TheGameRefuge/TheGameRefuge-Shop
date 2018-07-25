@@ -80,7 +80,7 @@ h2 {
 .navbar ul {
     list-style-type: none;
     margin: 0;
-    padding-left: 200px;
+    padding-left: px;
     overflow: hidden;
     background-color: #333;
 }
@@ -116,4 +116,14 @@ div.column {
     margin-right: auto;
     margin-left: auto;
     border: solid 5px black;
+}
+#logo {
+    padding: 5px;
+    padding-right: 100px;
+    color: white;
+    font-size: 16px;
+    float: left;
+}
+.mySlides {
+    display:none;
 }
