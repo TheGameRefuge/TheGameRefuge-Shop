@@ -15,7 +15,8 @@ h4{
     margin: 0px;
 }
 h2 {
-     color: white;
+     color: black;
+    text-align: center;
  }
 
 h1 {
@@ -78,6 +79,7 @@ h1 {
     max-width: 100%;
     min-width: 100%;
     background-color: #111111;
+    height: 15px;
 }
 .navbar ul {
     list-style-type: none;
