@@ -8,7 +8,7 @@ a {
 }
 
 h3 {
-    padding-top: 100px;
+    padding-top: px;
 }
 
 h1 {
@@ -129,4 +129,12 @@ div.column {
 }
 .mySlides {
     display:none;
+}
+#cov {
+    float: left;
+    width: 20%;
+    padding: 50px;
+}
+.box #sell {
+    width: 80%;
 }
