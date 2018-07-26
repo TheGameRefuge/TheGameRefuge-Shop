@@ -316,7 +316,7 @@ input[type=text]:focus, input[type=password]:focus {
     min-height: 200px;
  }
 div.gl{
- margin-left: 100px;
+    margin-left: 180px;
 }
 
 footer{
