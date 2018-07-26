@@ -318,6 +318,10 @@ input[type=text]:focus, input[type=password]:focus {
 div.gl{
  margin-left: 100px;
 }
+
+footer{
+    background-color: #3a3a3a;
+}
 @media screen and (max-width: 300px) {
     .cancelbtn, .signupbtn {
         width: 100%;
