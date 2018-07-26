@@ -24,7 +24,6 @@
                 <li class="dropdown"><a href="javascript:void(0)" class="droptn">Sign in</a>
                     <div class="dropdown-content">
                         <a href="#"><button onclick="document.getElementById('id01').style.display='block'" class="prihlaseni" style="width:auto;">Sign Up</button></button></a>
-                        <a href="#"><button class="btn btn-danger navbar-btn";"prihlaseni">Register account</button></a>
                     </div>
                 </li>
             </ul>
@@ -118,15 +117,6 @@
             x[i].style.display = "none";
         }
         x[slideIndex - 1].style.display = "block";
-    }
-
-    function myMap() {
-        var myCenter = new google.maps.LatLng(51.508742,-0.120850);
-        var mapCanvas = document.getElementById("map");
-        var mapOptions = {center: myCenter, zoom: 12};
-        var map = new google.maps.Map(mapCanvas, mapOptions);
-        var marker = new google.maps.Marker({position:myCenter});
-        marker.setMap(map);
     }
 </script>
 </body>
