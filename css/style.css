@@ -166,23 +166,6 @@ li.dropdown {
     border: 10px solid black;
 }
 
-div.column {
-    float: left;
-    width: 30%;
-    height: 30%;
-    padding-top: 60px;
-    margin: px;
-}
-
-.fp {
-    display: block;
-    margin-left:0;
-    border: solid 5px black;
-    max-width: 50%;
-    min-width: 90%;
-    min-height: 50%;
-    max-height: 50%;
-}
 #logo {
     padding-top: 10px;
     padding-right: 100px;
@@ -194,7 +177,6 @@ div.column {
 }
 #cov {
     float: left;
-    width: 20%;
     padding: 50px;
 }
 .box #sell {
