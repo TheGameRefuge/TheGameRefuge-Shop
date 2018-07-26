@@ -284,3 +284,18 @@ input[type=text]:focus, input[type=password]:focus {
     .cancelbtn, .signupbtn {
        width: 100%;
     }
+    .fp {
+        display: block;
+        margin-left:auto;
+        margin-right: auto;
+        border: solid 5px black;
+        min-width: 80%;
+        height: 550px;
+    }
+    div.column {
+        float: left;
+        width: 30%;
+        height: 30%;
+        padding-top: 60px;
+        margin: 20px;
+    }
